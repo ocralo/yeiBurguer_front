@@ -17,7 +17,7 @@ export default new Vuex.Store({
       ) {
         state.login = true;
         console.log(ModuleLogin.state.user);
-        router.push("/a");
+        router.push("/home");
       }
     },
   },
